@@ -7,8 +7,9 @@ This program simulates a smart car system equipped with ESP32CAM and ESP32 micro
 - Traffic Sign Recognition: ESP32CAM is responsible for capturing images of traffic signs in the vicinity. These images are processed by a traffic sign recognition model running on ESP32. Information about traffic signs is relayed to the car's control system.
 - Line Tracking: ESP32CAM captures images of road lines or tracks, which are then analyzed by a line tracking model running on ESP32. The model provides guidance on how to follow the road lines.
 
-This integrated system showcases the potential of combining computer vision, machine learning with TensorFlow and Keras, and hardware control using ESP32 and ESP32CAM for smart car applications.
+Additionally, the program utilizes UDP for real-time video transmission from the ESP32CAM, enabling the car to receive and process video feeds effectively.
 
+This integrated system showcases the potential of combining computer vision, machine learning with TensorFlow and Keras, and hardware control using ESP32 and ESP32CAM for smart car applications, all while incorporating real-time video transmission via UDP.
 
 
 # Video User's Guide
